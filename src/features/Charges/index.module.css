@@ -1,0 +1,30 @@
+.component {
+  list-style-type: none;
+  padding-inline: 0;
+  max-width: 23rem;
+  width: 100%;
+}
+
+.component > li {
+  align-items: center;
+  background-color: white;
+  border-radius: .5rem;
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+  margin-block-end: 1rem;
+  padding-inline: 1rem;
+}
+
+.deposit,
+.withdrawal {
+  font-weight: 500;
+}
+
+.deposit {
+  color: green;
+}
+
+.withdrawal {
+  color: red;
+}

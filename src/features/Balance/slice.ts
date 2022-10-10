@@ -6,7 +6,7 @@ export interface BalanceState {
 }
 
 const initialState: BalanceState = {
-  balance: 100,
+  balance: 0,
 };
 
 export const balanceSlice = createSlice({

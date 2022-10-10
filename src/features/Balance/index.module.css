@@ -1,0 +1,25 @@
+.component {
+}
+
+.balance > h2,
+.balance p {
+  margin-block: 0;
+}
+
+.balance {
+  color: white;
+}
+
+.buttons > input {
+  max-width: 23rem;
+  width: 100%;
+}
+
+.buttons > button {
+  background-color: #249fec;
+  border-radius: .5rem;
+  border-style: none;
+  color: white;
+  min-height: 2.75rem;
+  min-width: 4.5rem;
+}
