@@ -1,25 +1,42 @@
 .component {
-}
-
-.balance > h2,
-.balance p {
-  margin-block: 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 23rem;
+  width: 100%;
 }
 
 .balance {
   color: white;
 }
 
-.buttons > input {
-  max-width: 23rem;
-  width: 100%;
+.balance > h2,
+.balance p {
+  font-size: 1rem;
+  margin-block: 0;
 }
 
-.buttons > button {
+.buttonWrapper > button {
   background-color: #249fec;
   border-radius: .5rem;
   border-style: none;
   color: white;
+  margin-inline-end: 1rem;
   min-height: 2.75rem;
   min-width: 4.5rem;
+}
+
+.input {
+  margin-block-start: 1rem;
+}
+
+.input > input {
+  border-radius: .5rem;
+  min-height: 2.75rem;
+  width: 23rem;
+}
+
+.input > p {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
 }
