@@ -1,9 +1,13 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
 import balanceReducer from '../features/Balance/slice';
+import searchReducer from '../features/Search//slice';
+import chargeReducer from '../features/Charges/slice';
 
 export const store = configureStore({
   reducer: {
-    balance: balanceReducer
+    balance: balanceReducer,
+    search: searchReducer,
+    charges: chargeReducer
   },
 });
 
