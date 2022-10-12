@@ -3,15 +3,15 @@ import './App.css';
 import { Balance } from './features/Balance';
 import { Charges } from './features/Charges';
 import { Search } from './features/Search';
+import { UserInfo } from './features/User';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Balance />
-        <Search />
-        <Charges />
-      </header>
+      <UserInfo />
+      <Balance />
+      <Search />
+      <Charges />
     </div>
   );
 }

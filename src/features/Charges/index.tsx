@@ -4,7 +4,7 @@ import { selectSearch } from '../Search/slice'
 import styles from "./index.module.css"
 import { selectCharges } from './slice'
 
-export function Charges()  {
+export function Charges() {
 
   const searchValue = useAppSelector(selectSearch)
   const charges = useAppSelector(selectCharges).filter(c => c.name.toLowerCase().includes(searchValue.toLowerCase()))

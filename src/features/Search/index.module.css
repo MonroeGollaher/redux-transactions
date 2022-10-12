@@ -1,21 +1,26 @@
-.wrapper .searchBox {
+.searchBox {
   background: #fff;
-  border-radius: 5px;
-  box-shadow: 0 8px 6px -10px #b3c6ff;
+  border-radius: 0.5rem;
   display: flex;
   margin-block-start: 1rem;
   width: 23rem;
+  height: 2.75rem;
 }
 
-.wrapper .searchBox .searchField {
+.searchField {
   width: 350px;
-  height: 100%;
 }
 
-.wrapper .searchBox .searchField .input {
+.input {
   border: 0px;
   font-size: 16px;
-  padding-left: 20px;
-  padding-right: 38px;
   color: #6f768d;
+}
+
+.selectWrapper {
+
+}
+
+.select {
+
 }
