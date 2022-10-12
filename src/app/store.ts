@@ -8,8 +8,9 @@ export const store = configureStore({
   reducer: {
     balance: balanceReducer,
     search: searchReducer,
+    filter: searchReducer,
     charges: chargeReducer,
-    userInfo: userInfoReducer
+    userInfo: userInfoReducer,
   },
 });
 
